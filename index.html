@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevOps Monitoring Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="dashboard">
+
+    <!-- Header -->
+    <header class="header">
+        <div>
+            <h1>DevOps Monitoring Dashboard</h1>
+        </div>
+
+        <div class="header-right">
+            <div id="clock"></div>
+
+            <button id="themeToggle">
+                🌙
+            </button>
+        </div>
+    </header>
+
+    <!-- Monitoring Cards -->
+    <section class="cards">
+
+        <div class="card">
+            <h3>CPU Usage</h3>
+            <div class="metric-value" id="cpuValue">0%</div>
+
+            <div class="progress">
+                <div class="progress-fill" id="cpuBar"></div>
+            </div>
+
+            <span class="status" id="cpuStatus">Healthy</span>
+        </div>
+
+        <div class="card">
+            <h3>RAM Usage</h3>
+            <div class="metric-value" id="ramValue">0%</div>
+
+            <div class="progress">
+                <div class="progress-fill" id="ramBar"></div>
+            </div>
+
+            <span class="status" id="ramStatus">Healthy</span>
+        </div>
+
+        <div class="card">
+            <h3>Disk Usage</h3>
+            <div class="metric-value" id="diskValue">0%</div>
+
+            <div class="progress">
+                <div class="progress-fill" id="diskBar"></div>
+            </div>
+
+            <span class="status" id="diskStatus">Healthy</span>
+        </div>
+
+        <div class="card">
+            <h3>Network Traffic</h3>
+            <div class="metric-value" id="networkValue">0%</div>
+
+            <div class="progress">
+                <div class="progress-fill" id="networkBar"></div>
+            </div>
+
+            <span class="status" id="networkStatus">Healthy</span>
+        </div>
+
+    </section>
+
+    <!-- Server Status -->
+    <section class="server-status card">
+        <h2>Server Status</h2>
+
+        <div class="server-grid">
+
+            <div class="server-item">
+                <span class="indicator"></span>
+                Web Server
+            </div>
+
+            <div class="server-item">
+                <span class="indicator"></span>
+                Database
+            </div>
+
+            <div class="server-item">
+                <span class="indicator"></span>
+                API Gateway
+            </div>
+
+            <div class="server-item">
+                <span class="indicator"></span>
+                Cache Server
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="stats">
+
+        <div class="card">
+            <h4>Uptime</h4>
+            <p id="uptime">99.99%</p>
+        </div>
+
+        <div class="card">
+            <h4>Active Users</h4>
+            <p id="users">0</p>
+        </div>
+
+        <div class="card">
+            <h4>Requests/sec</h4>
+            <p id="rps">0</p>
+        </div>
+
+        <div class="card">
+            <h4>Response Time</h4>
+            <p id="response">0ms</p>
+        </div>
+
+    </section>
+
+    <!-- Logs -->
+    <section class="logs card">
+        <h2>Live Activity Logs</h2>
+        <ul id="logContainer"></ul>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
