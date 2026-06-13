@@ -34,19 +34,6 @@ devops-monitoring-dashboard/
 └── README.md
 ```
 
-## How to Run
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/devops-monitoring-dashboard.git
-```
-
-2. Open the project folder
-
-```bash
-cd devops-monitoring-dashboard
-```
 
 3. Launch `index.html` in your browser
 
