@@ -17,6 +17,10 @@ A modern and fully responsive DevOps Monitoring Dashboard built using HTML, CSS,
 * Responsive Design for Mobile, Tablet, and Desktop
 * Smooth Animations and Modern UI
 
+## Live link
+
+https://alokdevops43.github.io/devops-monitoring-dashboard/
+
 ## Tech Stack
 
 * HTML5
@@ -25,9 +29,7 @@ A modern and fully responsive DevOps Monitoring Dashboard built using HTML, CSS,
 
 ## Project Structure
 
-## Live Link
 
-gorgeous-stroopwafel-322b67.netlify.app
 
 ```text
 devops-monitoring-dashboard/
