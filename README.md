@@ -25,6 +25,10 @@ A modern and fully responsive DevOps Monitoring Dashboard built using HTML, CSS,
 
 ## Project Structure
 
+## Live Link
+
+gorgeous-stroopwafel-322b67.netlify.app
+
 ```text
 devops-monitoring-dashboard/
 │
